@@ -5,5 +5,5 @@
 				version	="1.0.0">
 		<name>APP DEMO</name>
 		<description>API Demo</description>
-		<icon src="odong.png"/>
+		<icon src="icon.png"/>
 </widget>
