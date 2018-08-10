@@ -9,8 +9,8 @@
 					<link rel="stylesheet" type="text/css"href="CSS/style.css">
 					
 <style>
-body {
- background:  url("b1.jpg") no-repeat center center field;
+body
+ background:  url("tec.jpg") no-repeat center center field;
  -webkit-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
@@ -25,10 +25,10 @@ body {
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 80%;
-  padding: 15px;
+  padding: 18px;
   margin: 5px 0 22px 0;
   display: inline-block;
-  border: none;
+  border: 1px solid #121923;
   background: #f1f1f1;
 }
 
@@ -39,37 +39,29 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Overwrite default styles of hr */
 hr {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #121923;
   margin-bottom: 25px;
 }
 
 /* Set a style for the submit/register button */
-.registerbtn {
+.loginbtn {
   background-color: #3a3d44;
   color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
+  padding: 18px 20px;
+  margin: 10px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity:1;
-}
-
-/* Add a red text color to links */
-a {
-  color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
+  width: 40%;
+  opacity: 0.8;
   
 }
+
+.loginbtn:hover {
+  opacity:5;
+}
+
+
+
 
 
 </style>					
@@ -88,7 +80,7 @@ a {
 
     <input type="password" placeholder="Enter Password" name="psw" required><br><br>
 
-    <button type="submit" class="registerbtn">LOGIN</button>
+    <button type="submit" class="loginbtn">LOGIN</button>
   </div>
 
   <div class="container signin">
